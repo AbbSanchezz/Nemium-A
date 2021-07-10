@@ -3,18 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style-physical.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap"
-      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>El Blog de Leo</title>
     <meta property="og:title" content="Mi proyecto del Curso esencial de HTML y CSS" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Todo lo que necesitas saber en tu día a día como Frontend" />
-    <meta property="og:url" content="https://leonidasesteban.github.io/curso-esencial-html-css/" />
+    <meta property="og:url" content="https://abbsanchezz.github.io/Curso-Leonidas-HTML-CSS/" />
     <meta property="og:image" content="https://leonidasesteban.github.io/curso-esencial-html-css/images/dom.png" />
-
     <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
@@ -24,7 +22,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
@@ -34,50 +32,9 @@
     <meta name="theme-color" content="#ffffff">
   </head>
   <body>
-    <div class="hero"></div>
+  
+  <div class="hero"></div>
 
-    <!-- <div class="title">
-      <div class="wrapper">
-        <div class="title-content">
-          <h1>
-            Curso esencial de HTML y CSS
-          </h1>
-          <p>
-            Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de
-            contenidos,
-            en el nivel 2 aprenderás de componentes y en 3 sobre layouts.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="services">
-      <div class="wrapper">
-        <div class="services-content">
-          <h1>
-            Curso esencial de HTML y CSS
-          </h1>
-          <p>
-            Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de
-            contenidos,
-            en el nivel 2 aprenderás de componentes y en 3 sobre layouts.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="pricing">
-      <div class="wrapper">
-        <div class="pricing-content">
-          <h1>
-            Curso esencial de HTML y CSS
-          </h1>
-          <p>
-            Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de
-            contenidos,
-            en el nivel 2 aprenderás de componentes y en 3 sobre layouts.
-          </p>
-        </div>
-      </div>
-    </div> -->
     <div class="header">
       <div class="wrapper">
         <div class="header-content">
@@ -132,9 +89,10 @@
         </div>
       </div>
     </div>
+    
+<hr class="hr-1">
+
     <main class="main">
-
-
       <div class="wrapper">
         <div class="main-content">
           <h1>
@@ -144,9 +102,10 @@
             Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos,
             en el nivel 2 aprenderás de componentes y en 3 sobre layouts.
           </p>
-          <hr>
+          
+<hr class="hr">
+          
           <section class="section-content">
-
             <h2>
               Setup
             </h2>
@@ -173,7 +132,7 @@
             mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de
             manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
             <blockquote>
-              <p>
+              <p class="p">
                 “Este es el inicio de tu carrera como Desarrollador Web”
               </p>
               <p>
@@ -183,13 +142,12 @@
               </p>
             </blockquote>
           </section>
-          <hr>
-          <section class="section-content">
 
+          <section class="section-content">
             <h2>Conceptos esenciales del Desarrollo Web</h2>
             <h3 id="html">Qué es HTML</h3>
             <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado
-            y la estructura del contenido. <code>const name = 'your name'</code></p>
+            y la estructura del contenido.</p>
             <pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -221,7 +179,6 @@
             relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido,
             categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a
             la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
-            <h3>Propiedades físicas para el modelo de caja:</h3>
             <h3 id="atributos">Atributos</h3>
             <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el
             navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos
@@ -242,16 +199,14 @@
               <li>Border / Bordes</li>
               <li>Margin / Márgenes</li>
             </ol>
-            <h3>Propiedades físicas para el modelo de caja:</h3>
+            <h2>Propiedades físicas para el modelo de caja:</h2>
             <ul>
-              <li>
-                width / height
-              </li>
+              <li>width / height </li>
               <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
               <li>border / border-top | border-right | border-bottom | border-left</li>
               <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
             </ul>
-            <h3>Propiedades lógicas para el modelo de caja:</h3>
+            <h2>Propiedades lógicas para el modelo de caja:</h2>
             <ul>
               <li>inline-size / block-size</li>
               <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
@@ -259,8 +214,8 @@
               <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
             </ul>
           </section>
-          
-       <div  class="section-content">
+         
+         <div  class="section-content">
            <h2>¡Hola! Estos videos te esperan 🥰</h2>
             <div class="slider">
               <scroll-container class="slider-container">
@@ -282,34 +237,29 @@
             </div>
          </div>
          
-          <p>
-            Si tienes alguna pregunta escríbeme a
+          <p class="p">
+            <span>Si tienes alguna pregunta escríbeme a</span>
             <a href="mailto:me@leonidasesteban.com">me@leonidasesteban.com</a>
           </p>
          
-          <div class="section-content">
-            <h2>Suscríbete a nuestro newsletter</h2>
+          <div class="section-content-form">
+            <h3>Suscríbete a nuestro newsletter</h3>
             <form action="#" class="form">
-              <!-- <select name="" id="">
-                <option value="">curso 1</option>
-                <option value="">curso 2</option>
-              </select>
-              <input type="checkbox">
-              <input type="radio"> -->
               <input type="text" required placeholder="Nombre">
               <input type="email" required placeholder="Correo Electrónico">
-              <input type="submit" value="Suscribirme">
+              <input type="submit" value="Suscribirme" class="submit">
             </form>
           </div>
-
         </div>
       </div>
     </main>
-    <footer>
-        <p>© Leonidas Esteban 2021</p>
-          <div class="img-container-footer">
-             <img src="./images/1.png"><img src="./images/2.png"><img src="./images/3.png">
-          </div>
-    </footer>
+  
+          <footer>
+            <p>© Leonidas Esteban 2021</p>
+              <div class="img-container-footer">
+                 <img src="./images/1.png"><img src="./images/2.png"><img src="./images/3.png">
+              </div>
+          </footer>
+
   </body>
 </html>
