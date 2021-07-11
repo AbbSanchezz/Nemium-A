@@ -13,15 +13,59 @@ body {
 	background: var(--white);
 	margin: 0;
 }
+
+
+/*MENU*/
+.menu {
+	display: block;
+	margin-inline: 16px;
+}
+.menu-content {
+	inset-block-start: 5px;
+}
+.menu-content header {
+    max-inline-size: 328px;
+}
+.menu-content summary {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #616161;
+	margin-block-end: 16px;
+}
+.menu-content a {
+	text-decoration: none;
+	color: #616161;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.menu-content a:hover {
+	color: #fff;
+}
+.menu-content li {
+	padding: 8px;
+	border-radius: 4px;
+}
+.menu-content li:hover {
+	background: #000;
+}
+.menu-content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	display: none;
+}
+/*MENU*/
+
 .hero {
   background-image: linear-gradient(to top, rgba(255, 255, 255, .3), transparent), url('../images/pattern.png');
   height: 100px;
   background-size: 28%;
 }
 .hr-1 {
-	display: none;
-}
-.header {
 	display: none;
 }
 .main-content {
@@ -33,10 +77,10 @@ body {
 .wrapper {
 	max-inline-size: 902px;
 	margin: auto;
-}
+}|
 
 nav summary {
-	color: var(--white30);
+	color: var(--black);
 }
 nav details summary {
 	font-weight: bold; 
@@ -162,6 +206,7 @@ pre {
 	font-size: 16px;
 	overflow-x: auto;
 	color: var(--black);
+	background: var(--yellow)
 }
 .slider {
 }
@@ -257,6 +302,9 @@ footer p {
 	color: var(--black)
 }
 @media screen and (min-width: 1366px) {
+  .nav {
+  	display: block;
+  }
   .hero {
     block-size: 250px;
     background-size: 7.6%;
@@ -282,7 +330,7 @@ footer p {
   }
  	header a {
 	text-decoration: none;
-	color: var(--black);
+	color: var(--gray);
 }
 	header li  {
 	color: var(--gray);
@@ -300,5 +348,40 @@ footer p {
   h1 {
     font-size: 60px;
     margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: -3px;
   }
+/*MENU*/
+.menu {
+	display: block;
+	margin-inline-start: -1px;
+}
+.menu-content summary {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #616161;
+	mar
+}
+.menu-content a {
+	text-decoration: none;
+	color: #616161;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+}
+.menu-content li {
+	padding: 8px;
+	border-radius: 4px;
+}
+.menu-content li:hover {
+	background: #000;
+	color: #fff;
+}
+.menu-content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 }
