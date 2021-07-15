@@ -21,6 +21,7 @@ body {
 	margin-inline: 16px;
 	margin-block-end: 48px;
 	max-inline-size: 388px;
+
 }
 .menu-content {
 	inset-block-start: 5px;
@@ -325,6 +326,7 @@ footer p {
     font-size: 14px;
  	width: 188px;
   	color: var(--gray);
+  	height: 5200px;
   }
  	header a {
 	text-decoration: none;
@@ -363,6 +365,9 @@ footer p {
 	margin-inline-start: -1px;
 	margin-block-end: 112px;
 	inline-size: 200px;
+	position: sticky;
+	top: 0;
+	background: #fff;
 }
 .menu-content summary {
 	font-weight: 400;
